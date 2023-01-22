@@ -364,4 +364,57 @@ img {
 .header .header__list {
   display: flex;
   align-items: center;
+}
+
+.title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+  color: #07484a;
+  text-align: center;
+}
+
+.category {
+  padding: 100px 0;
+}
+
+.category__body {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 60px;
+}
+
+.category__albums {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category__cards {
+  width: 589.5px;
+  height: 321px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.category__cards:nth-child(1) {
+  background-image: url(../../assets/img/category-1.jpg);
+}
+.category__cards:nth-child(2) {
+  background-image: url(../../assets/img/category-2.jpg);
+}
+.category__cards:nth-child(3) {
+  background-image: url(../../assets/img/category-3.jpg);
+}
+.category__cards:nth-child(41) {
+  background-image: url(../../assets/img/category-4.jpg);
+}
+.category__cards:nth-child(5) {
+  background-image: url(../../assets/img/category-5.jpg);
+}
+.category__cards:nth-child(6) {
+  background-image: url(../../assets/img/category-6.jpg);
 }/*# sourceMappingURL=main.css.map */
