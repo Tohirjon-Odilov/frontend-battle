@@ -351,5 +351,9 @@ img {
 .container {
   margin: 0 auto;
   padding: 0 20px;
-  max-width: __px;
+  max-width: 1123px;
+}
+
+.category {
+  background: #000;
 }/*# sourceMappingURL=main.css.map */
