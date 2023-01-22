@@ -364,4 +364,5 @@ img {
 .header .header__list {
   display: flex;
   align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
