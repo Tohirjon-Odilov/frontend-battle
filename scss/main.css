@@ -351,5 +351,17 @@ img {
 .container {
   margin: 0 auto;
   padding: 0 20px;
-  max-width: __px;
+  max-width: 1123px;
+}
+
+.header {
+  width: 100%;
+  padding: 26px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header__list {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
