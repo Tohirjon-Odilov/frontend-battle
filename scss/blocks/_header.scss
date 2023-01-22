@@ -4,10 +4,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-image: url(../../assets/img/hero-bg.png);
   .header__list {
     @include center;
+    gap: 20px;
   }
   .header__item a {
     color: white;
+  }
+  .header__logo {
+    display: flex;
+    gap: 20px;
   }
 }

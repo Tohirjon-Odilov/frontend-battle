@@ -359,7 +359,7 @@ li {
 .container {
   margin: 0 auto;
   padding: 0 20px;
-  max-width: 1123px;
+  max-width: 1660px;
 }
 
 .header {
@@ -368,12 +368,18 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-image: url(../../assets/img/hero-bg.png);
 }
 .header .header__list {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 20px;
 }
 .header .header__item a {
   color: white;
+}
+.header .header__logo {
+  display: flex;
+  gap: 20px;
 }/*# sourceMappingURL=main.css.map */
