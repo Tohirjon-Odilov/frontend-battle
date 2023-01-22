@@ -362,13 +362,21 @@ li {
   max-width: 1660px;
 }
 
+.site-header {
+  height: 100vh;
+  background-image: url(../../assets/img/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .header {
+  margin-bottom: 246px;
+  max-width: 1660px;
   width: 100%;
   padding: 26px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-image: url(../../assets/img/hero-bg.png);
 }
 .header .header__list {
   display: flex;
@@ -380,6 +388,35 @@ li {
   color: white;
 }
 .header .header__logo {
+  display: none;
+  height: 27px;
   display: flex;
   gap: 20px;
+}
+
+.hero {
+  max-width: 668px;
+}
+.hero h1 {
+  margin-bottom: 54px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+  color: #07484a;
+}
+.hero p {
+  margin-bottom: 54px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #07484a;
+}
+.hero a {
+  padding: 23.5px 54.5px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #fdfbf8;
+  background: #70908b;
+  border-radius: 10px;
 }/*# sourceMappingURL=main.css.map */

@@ -4,8 +4,8 @@
   justify-content: center;
 }
 
-@mixin between {
+@mixin flex($position) {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: $position;
 }
