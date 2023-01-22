@@ -323,18 +323,26 @@ template {
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: "Playfair Display", serif;
 }
 
 img {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
 }
 
 .visually-hidden {
