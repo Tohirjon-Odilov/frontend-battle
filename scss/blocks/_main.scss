@@ -7,3 +7,16 @@
   color: #07484a;
   text-align: center;
 }
+
+@media screen and (max-width: 1080px) {
+  .title {
+    font-size: 48px;
+    line-height: 64px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .title {
+    font-size: 28px;
+    line-height: 42px;
+  }
+}
