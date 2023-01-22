@@ -7,4 +7,7 @@
   .header__list {
     @include center;
   }
+  .header__item a {
+    color: white;
+  }
 }
