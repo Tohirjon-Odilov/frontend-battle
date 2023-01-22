@@ -1,3 +1,17 @@
+/* playfair-display-regular - latin */
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/playfair-display-v30-latin-regular.woff2") format("woff2"), url("../fonts/playfair-display-v30-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* playfair-display-700 - latin */
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/playfair-display-v30-latin-700.woff2") format("woff2"), url("../fonts/playfair-display-v30-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -315,6 +329,7 @@ template {
 body {
   margin: 0;
   padding: 0;
+  font-family: "Playfair Display", serif;
 }
 
 img {
@@ -336,5 +351,17 @@ img {
 .container {
   margin: 0 auto;
   padding: 0 20px;
-  max-width: __px;
+  max-width: 1123px;
+}
+
+.header {
+  width: 100%;
+  padding: 26px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header__list {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
