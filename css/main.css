@@ -829,12 +829,4 @@ li {
   .category__btn {
     display: none;
   }
-}
-body {
-  overflow-x: hidden;
-}
-
-.products-section,
-.header {
-  display: none;
 }/*# sourceMappingURL=main.css.map */
