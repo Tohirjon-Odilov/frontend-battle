@@ -1,8 +1,10 @@
 .site-header {
-  height: 100vh;
+  margin: 0 auto;
+  max-width: 1920px;
+  height: 1080px;
   background-image: url(../../assets/img/hero-bg.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .header {
   margin-bottom: 246px;
