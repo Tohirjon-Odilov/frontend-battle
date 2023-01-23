@@ -433,6 +433,25 @@ li {
   text-align: center;
 }
 
+.owl-carousel .owl-item {
+  width: 430px !important;
+  height: 585px !important;
+  background-color: aliceblue;
+  margin: 0 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Playfair Display";
+}
+.owl-carousel .owl-item__title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
 .category {
   padding: 100px 0;
 }
